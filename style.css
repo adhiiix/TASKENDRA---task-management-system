@@ -1,0 +1,296 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(95, 224, 95);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 2.8rem;
+}
+
+.indexMain {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh; 
+    width: 100%;  
+    gap: 1rem;
+    width: 100%;
+}
+
+.hm {
+    background-color: rgb(95, 224, 95);
+    border: none;
+    font-size: 0.9rem;
+    box-sizing: border-box; 
+    width: 80px; 
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnG {
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    box-sizing: border-box; 
+    width: 120px; 
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.lists {
+    display: flex;
+    gap: 20px;
+}
+
+.heading {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+}
+
+.contentDiv{
+    height: 30%;
+    width: 30%;
+}
+
+.imgDiv{
+    height: 70%;
+    width: 40%;
+    overflow: hidden;
+}
+
+.imgDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contentDiv .pH{
+    font-size: 3rem;
+    height: 1rem;
+}
+.contentDiv .pH span{
+    color: rgb(95, 224, 95);
+}
+
+.contentDiv button{
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color:rgb(95, 224, 95) ;
+    color: black;
+    font-size: 14px;
+    box-sizing: border-box; 
+    width: 120px; 
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.getIMG{
+    height: 70%;
+    width: 40%;
+    overflow: hidden;
+    margin-left: 16rem;
+    margin-top:5rem;
+}
+
+.getIMG img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Gmain{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh; 
+    width: 100%;  
+    gap: 1rem;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.getFORM{
+    background-color: rgb(95, 224, 95);
+    height: 100%;
+    width: 30%;
+    align-items: center;
+}
+
+.formP{
+     
+     padding: 5rem;
+}
+.getFORM form label{
+    font-size: 1.4rem;
+}
+.getFORM form p{
+    font-size: 2rem;
+    color: white;
+}
+.getFORM form input {
+    border: none;         
+    border-bottom: 0.1rem solid #000; 
+    outline: none;        
+    background: transparent; 
+    padding: 5px;         
+    font-size: 16px;
+    width: 25rem;
+    color: white;      
+}
+
+.getFORM form button{
+    width: 25.72rem;
+    border-radius: 1.2rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.getLOGIN{
+    background-color: rgb(95, 224, 95);
+    height: 100%;
+    width: 30%;
+    align-items: center;
+}
+.getLOGIN form label{
+    font-size: 1.4rem;
+}
+.getLOGIN form input {
+    border: none;         
+    border-bottom: 0.1rem solid #000; 
+    outline: none;        
+    background: transparent; 
+    padding: 5px;         
+    font-size: 16px;
+    width: 25rem;
+    color: white;      
+}
+.getLOGIN form button{
+    width: 25.72rem;
+    border-radius: 1.2rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.getLOGIN form{
+    margin-top: 15em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.dashboardL{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 16rem;
+    align-items: center;
+}
+
+.tasksH{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 25rem ;
+    margin-right: 25rem;
+}
+
+.tasksH button{
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    color: black;
+    font-size: 14px;
+    box-sizing: border-box; 
+    width: 120px; 
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 2.1rem;
+}
+.tasksH p{
+    font-size: 2rem;
+}
+.addtasksL{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 16rem;
+    align-items: center;
+    
+}
+
+form label{
+    font-size: 1.2rem;
+}
+.descS{
+    border:  2px solid #000000;
+    padding: 1rem;
+    width: 30rem;
+}
+
+.descS input{
+    border: none;         
+    border-bottom: 0.2rem solid #000; 
+    outline: none;        
+    background: transparent; 
+    padding: 5px;         
+    font-size: 16px;
+    width: 28rem;
+    color: black;
+}
+
+.descS textarea{
+    width: 28.5rem;
+    border:  2px solid #000000;
+    resize: none;
+}
+
+.addB{
+    display: flex;
+    justify-content: center;
+}
+
+.addB button{
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    color: black;
+    font-size: 14px;
+    box-sizing: border-box; 
+    width: 120px; 
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: rgb(95, 224, 95);
+}

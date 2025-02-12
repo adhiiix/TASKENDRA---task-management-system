@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p class="heading"><b>Taskia</b></p>
+        <div class="lists">
+            <button class="hm" id="homeBTN"><h4>Home</h4></button>
+            <button class="hm"><h4>Login</h4></button>
+            <button class="btnG" id="reloadBTN">Get Started</button>
+        </div>
+    </header>
+    <main class="Gmain">
+        <div class="getIMG">
+            <img src="images/login.jpg" alt="">
+        </div>
+        <div class="getLOGIN">
+            <form id="signupForm" class="formP" method="POST" action="login.php">
+                <div>
+                    <label for="CompanyName">Email:</label><br>
+                    <input type="text" name="Email" id="Email" required>
+                </div><br>
+                <div>
+                    <label for="Name">Password:</label><br>
+                    <input type="password" name="Password" id="Password" required>
+                </div><br>
+                <button type="submit">Sign in</button>
+            </form>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

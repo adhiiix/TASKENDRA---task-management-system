@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p class="heading"><b>Taskia</b></p>
+        <div class="lists">
+            <button class="hm" id="homeBTN"><h4>Home</h4></button>
+            <button class="hm" id="loginBTN"><h4>Login</h4></button>
+            <button class="btnG" id="reloadBTN">Get Started</button>
+        </div>
+    </header>
+    <main class="Gmain">
+        <div class="getIMG">
+            <img src="images/getstarted.jpg" alt="">
+        </div>
+        <div class="getFORM">
+            <form id="signupForm" class="formP" method="POST" action="submit_form.php">
+                <p>Create your company</p>
+                <div>
+                    <label for="CompanyName">Company:</label><br>
+                    <input type="text" name="CompanyName" id="CompanyName" required>
+                </div><br>
+                <div>
+                    <label for="Name">Name:</label><br>
+                    <input type="text" name="Name" id="Name" required>
+                </div><br>
+                <div>
+                    <label for="Email">Email:</label><br>
+                    <input type="email" name="Email" id="Email" required>
+                </div><br>
+                <div>
+                    <label for="Phone">Phone:</label><br>
+                    <input type="text" name="Phone" id="Phone" required>
+                </div><br>
+                <div>
+                    <label for="Password">Password:</label><br>
+                    <input type="password" name="Password" id="Password" required>
+                </div><br><br>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
